@@ -18,6 +18,7 @@ export default function ContactSection() {
     phone: "",
     email: "",
     message: "",
+    form_name:"contact form from Devviox"
   })
 
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -28,7 +29,7 @@ export default function ContactSection() {
     setIsSubmitting(true)
 
     try {
-      const response = await fetch("/api/contact", {
+      const response = await fetch("https://formspree.io/f/xpwrarwl", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
