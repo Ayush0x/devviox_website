@@ -16,10 +16,10 @@ export default function Footer() {
   ]
 
   const socialLinks = [
-    { name: "Facebook", icon: Facebook, href: "https://www.facebook.com/profile.php?id=61576860903801" },
-    // { name: "Twitter", icon: Twitter, href: "#" },
+    { name: "Facebook", icon: Facebook, href: "https://www.facebook.com/profile.php?id=61577102301044" },
+    { name: "Twitter", icon: Twitter, href: "#" },
     { name: "Instagram", icon: Instagram, href: "https://www.instagram.com/devviox/" },
-    // { name: "LinkedIn", icon: Linkedin, href: "#" },
+    { name: "LinkedIn", icon: Linkedin, href: "#" },
     { name: "GitHub", icon: Github, href: "https://github.com/Ayush0x" },
   ]
 
@@ -90,7 +90,7 @@ export default function Footer() {
           >
             <h4 className="text-lg font-semibold mb-4">Contact Information</h4>
             <div className="space-y-2 text-gray-400">
-              <p className="hover:text-white transition-colors duration-300">Phone: (+91) - 8448038183</p>
+              <p className="hover:text-white transition-colors duration-300">Phone: (+91) - 9528746979</p>
               <p className="hover:text-white transition-colors duration-300">Phone: (+91) - 8130315780</p>
               <p className="hover:text-white transition-colors duration-300">Email: dev.v.io.x.28@gmail.com</p>
               <p className="hover:text-white transition-colors duration-300">Response Time: Within 12-24 hours</p>
