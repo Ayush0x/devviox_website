@@ -48,13 +48,20 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo with hover animation */}
           <div className="flex-shrink-0">
-            <Link
-              href="/"
-              className="text-2xl font-bold text-primary hover:scale-105 transition-transform duration-300 ease-out"
-            >
-              Devviox
-            </Link>
-          </div>
+  <Link href="/" className="flex items-center space-x-2 hover:scale-105 transition-transform duration-300 ease-out">
+    <a className="flex items-center space-x-2">
+      <Image
+        src="/public/logo.png"         // Make sure logo.png is in the public/ folder
+        alt="Devviox Logo"
+        width={32}
+        height={32}
+        priority
+      />
+      <span className="text-2xl font-bold text-primary">Devviox</span>
+    </a>
+  </Link>
+</div>
+
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-6">
