@@ -90,8 +90,8 @@ export default function Footer() {
           >
             <h4 className="text-lg font-semibold mb-4">Contact Information</h4>
             <div className="space-y-2 text-gray-400">
-              <p className="hover:text-white transition-colors duration-300">Phone: (+91) - 9528746979</p>
               <p className="hover:text-white transition-colors duration-300">Phone: (+91) - 8130315780</p>
+              <p className="hover:text-white transition-colors duration-300">Phone: (+91) - 9528746979</p>
               <p className="hover:text-white transition-colors duration-300">Email: dev.v.io.x.28@gmail.com</p>
               <p className="hover:text-white transition-colors duration-300">Response Time: Within 12-24 hours</p>
             </div>

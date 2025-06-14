@@ -61,7 +61,7 @@ export default function ContactSection() {
     {
       icon: Phone,
       title: "Phone Numbers",
-      details: ["(+91) - 8448038183", "(+91) - 8130315780"],
+      details: ["(+91) - 8130315780","(+91) - 9528746979"],
     },
     {
       icon: Mail,
