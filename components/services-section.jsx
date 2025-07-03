@@ -8,41 +8,41 @@ export default function ServicesSection() {
   const { ref: cardsRef, isVisible: cardsVisible } = useScrollAnimation()
 
   const services = [
+    // {
+      // icon: Globe,
+      // title: "Web Design and Development",
+      // description:
+        // "Custom web solutions tailored to client needs with modern design principles and cutting-edge technology.",
+      // features: ["Responsive Design", "Custom Development", "Performance Optimization","Future-Ready","Clean","Price: ₹5000 - ₹10000 / 60$ - 100$"],
+      // price: "₹5000 - ₹10000 / 60$ - 100$",
+    // },
     {
       icon: Globe,
-      title: "Web Design and Development",
-      description:
-        "Custom web solutions tailored to client needs with modern design principles and cutting-edge technology.",
-      features: ["Responsive Design", "Custom Development", "Performance Optimization","Future-Ready","Clean","Price: ₹5000 - ₹10000 / 60$ - 100$"],
-      // price: "₹5000 - ₹10000 / 60$ - 100$",
+      title: "Static Website Development",
+      description: "Perfect for portfolios, small businesses, or informational pages that don’t require frequent updates.",
+      features: ["Cost-Effective", "SEO-Friendly", "Responsive","Low-Maintenance","Clean Design","Price: ₹8000 - ₹14000 / 100$ - 200$"],
+      // price: "₹4000 - ₹8000 / 50$ - 90$",
+    },
+    {
+      icon: Layers,
+      title: "Dynamic Website",
+      description: "Websites that update with content from databases or CMS platforms like WordPress.",
+      features: ["CMS-Integrated","User Login","SEO-Ready","Modular","Editable Content","Price: ₹15000 - ₹25000 / 200$ - 300$"],
+      // price: "₹8000 - ₹15000 / 100$ - 200$",
     },
     {
       icon: ShoppingCart,
       title: "Ecommerce Solutions",
       description:
         "Development of user-friendly online stores that drive sales and provide exceptional shopping experiences.",
-      features: ["Payment Integration", "Inventory Management", "User Experience Design","Secure","Easy Management","Price: ₹15000 - ₹40000 / 250$ - 500$"],
+      features: ["Payment Integration", "Inventory Management", "User Experience Design","Secure","Easy Management","Price: ₹30000 - ₹50000 / 350$ - 600$"],
       // price: "₹15000 - ₹40000 / 250$ - 500$",
     },
     {
-      icon: Layers,
-      title: "Static Website Development",
-      description: "Perfect for portfolios, small businesses, or informational pages that don’t require frequent updates.",
-      features: ["Cost-Effective", "SEO-Friendly", "Responsive","Low-Maintenance","Clean Design","Price: ₹4000 - ₹8000 / 50$ - 90$"],
-      // price: "₹4000 - ₹8000 / 50$ - 90$",
-    },
-    {
       icon: Wordpress,
-      title: "Dynamic Website",
-      description: "Websites that update with content from databases or CMS platforms like WordPress.",
-      features: ["CMS-Integrated","User Login","SEO-Ready","Modular","Editable Content","Price: ₹8000 - ₹15000 / 100$ - 200$"],
-      // price: "₹8000 - ₹15000 / 100$ - 200$",
-    },
-    {
-      icon: TrendingUp,
       title: "Custom Website Development",
       description: "Tailored websites built from the ground up — exactly how you envision it.From design to code, everything is made specifically for your brand, goals, and functionality needs.",
-      features: ["Fully Customized","Scalable","Unique Design","Conversion-Focused","Interactive","Price: ₹25000 - ₹70000 / 500$ - 1000$"],
+      features: ["Fully Customized","Scalable","Unique Design","Conversion-Focused","Interactive","Price: ₹45000 - ₹80000 / 550$ - 1000$"],
       // price: "₹25000 - ₹70000 / 500$ - 1000$",
     },
   ]
